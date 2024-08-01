@@ -52,20 +52,3 @@ function theme_customization_civicrm_enable() {
   _theme_customization_civix_civicrm_enable();
 }
 
-/**
- * Implements hook_civicrm_uninstall().
- *
- * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_uninstall
- */
-function theme_customization_civicrm_uninstall() {
-  _theme_customization_civix_civicrm_uninstall();
-}
-
-/**
- * Implements hook_civicrm_disable().
- *
- * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_disable
- */
-function theme_customization_civicrm_disable() {
-  _theme_customization_civix_civicrm_disable();
-}
